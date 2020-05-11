@@ -1,0 +1,556 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans-Regular'), url(http://allfont.de/cache/fonts/open-sans_5f14bd2f3cd41e7b13ff8bc4177c9d06.woff) format('woff'), url(http://allfont.de/cache/fonts/open-sans_5f14bd2f3cd41e7b13ff8bc4177c9d06.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.woff) format('woff'), url(http://allfont.ru/cache/fonts/open-sans-bold_5231939d0cda13eb1fd5685f7264eb76.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    background-color: rgb(243, 244, 249);
+    font-size: 14px;
+}
+
+* {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    color: rgb(180, 67, 111);
+    text-transform: uppercase;
+    font-family: 'Open Sans Bold';
+}
+
+h1 {
+    text-shadow: 1px 1px 1px #666;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+h3 {
+    text-align: left;
+    font-size: 2.5em;
+    color: black;
+}
+
+button, input[type="submit"] {
+    background-color: rgb(234, 74, 76);
+    color: white;
+    border: none;
+    padding: .75em 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+
+header {
+    height: 100px;
+    text-align: left;
+    z-index: 2;
+}
+
+header .right {
+    color: white;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    font-size: 0;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header .logo h2 {
+    color: rgb(234, 74, 76);
+    font-size: 16px;
+    margin: 0;
+    text-transform: unset;
+}
+
+header .phone {
+    font-size: 1.2em;
+    font-family: 'Open Sans Bold';
+    margin-left: 2em;
+}
+
+header .contact {
+    line-height: 100px;
+}
+
+header .contacts {
+    text-align: center;
+}
+
+header .email .contact {
+    margin: 0 .75em;
+    text-decoration: underline;
+}
+
+.social_accounts {
+    font-size: larger;
+}
+
+header .social_accounts {
+    margin: 0 .75em;
+}
+
+header .social_accounts .contact {
+    margin: 0 .1em;
+}
+
+header .user_account {
+    margin: 0 .75em;
+    position: relative;
+}
+
+header .user_account .indicator {
+    position: absolute;
+    background-color: red;
+    width: .5em;
+    height: .5em;
+    border-radius: 100%;
+    bottom: 0;
+    left: calc(50% - .25em);
+}
+
+header .menu {
+    text-align: center;
+    position: relative;
+}
+
+header .menu:after {
+    content: "menu";
+    position: absolute;
+    width: 100px;
+    bottom: -120%;
+    left: calc(50% - 50px);
+    text-transform: uppercase;
+}
+
+header .user_account_menu, header .menu {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+main.container .testimonial {
+    width: 70%;
+}
+
+main p {
+    color: rgb(160, 160, 160);
+    margin: 2em 0;
+}
+
+main button {
+    font-size: 1em;
+}
+
+.poster {
+    background: url(../images/theme.jpg) no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 500px;
+    z-index: -1;
+    overflow: hidden;
+    margin-left: 50%;
+}
+
+.introduction {
+    height: 400px;
+    position: relative;
+    font-size: 2em;
+}
+
+.introduction>div:first-child {
+    width: 50%;
+}
+
+.introduction>div:first-child h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.square {
+    color: rgb(234, 74, 76);
+    margin: 0 1em;
+    font-size: .5em;
+}
+
+.whatsnext {
+    border-top: 2px solid rgb(234, 74, 76);
+    border-bottom: 2px solid rgb(234, 74, 76);
+    color: rgb(234, 74, 76);
+    padding: .5em;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+
+.menu_icon {
+    font-size: 40px;
+    color: white;
+    margin: 0 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.left, .right {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.left {
+    position: relative;
+}
+
+.lines_up {
+    position: absolute;
+    transform: skewY(40deg);
+    left: 0;
+    top: 450px;
+    width: 10%;
+}
+
+.lines_down {
+    position: absolute;
+    transform: skewY(-40deg);
+    right: 0;
+    top: 800px;
+    width: 10%;
+}
+
+.line {
+    border-top: 3px solid rgb(220, 168, 181);
+    margin: 2em 0;
+}
+
+.circles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+}
+
+.circle {
+    color: rgb(220, 168, 181);
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    line-height: 1.2em;
+}
+
+.circle:first-child {
+    border-radius: 100%;
+    color: rgb(197, 113, 136);
+    border: 1px solid rgb(197, 113, 136);
+}
+
+.feedback {
+    background-color: rgb(229, 238, 247);
+    text-align: left;
+    position: relative;
+    padding: 2em;
+}
+
+.feedback h3 {
+    margin: 0;
+}
+
+.triple_border {
+    background: linear-gradient(rgb(218, 219, 223), rgb(218, 219, 223)) 0 0, linear-gradient(rgb(218, 219, 223), rgb(218, 219, 223)) 0 8px, linear-gradient(rgb(218, 219, 223), rgb(218, 219, 223)) 0 16px;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+}
+
+.testimonial {
+    margin: 4em 0;
+    position: relative;
+    counter-increment: testimonial;
+}
+
+.testimonial:after {
+    content: counter(testimonial);
+    position: absolute;
+    top: -100px;
+    left: 0;
+    font-size: 10em;
+    font-family: 'Open Sans Bold';
+    color: rgb(234, 233, 238);
+    z-index: -1;
+}
+
+form#feedback {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    margin: 2em 0 3em;
+}
+
+form#feedback label {
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+
+form#feedback input:not([type='submit']), form#feedback textarea {
+    float: right;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(173, 180, 186);
+    width: 200px;
+    padding: 0 .5em;
+}
+
+.form_row {
+    margin: 1em 0;
+}
+
+form#feedback input[type='submit'] {
+    float: right;
+    margin: 1em 0;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(111, 75, 89);
+    color: white;
+    position: relative;
+}
+
+footer .container {
+    display: table;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+footer .footer_column {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer .footer_column>:first-child {
+    display: inline;
+    border-bottom: 1px solid rgb(243, 244, 249);
+}
+
+footer .footer_column .social_accounts {
+    border-bottom: none;
+}
+
+footer .footer_column:first-child {
+    text-align: left;
+    border: none;
+}
+
+.scroll_up {
+    position: absolute;
+    bottom: calc(50% - 40px);
+    right: 2em;
+    width: 80px;
+    height: 80px;
+    color: rgb(243, 244, 249);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    display: table;
+}
+
+.scroll_up p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1200px) {
+    .introduction {
+        font-size: 1.8em;
+    }
+    footer .container {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    header {
+        font-size: .8em;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    .introduction {
+        font-size: 1.6em;
+    }
+    .poster {
+        height: 400px;
+    }
+    .introduction {
+        height: 300px;
+    }
+    .lines_up, .lines_down {
+        display: none;
+    }
+    footer {
+        font-size: .8em;
+    }
+    footer .container {
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        font-size: .7em;
+    }
+    .container {
+        max-width: 640px;
+        margin: 0px auto;
+    }
+    .introduction {
+        font-size: 1.2em;
+    }
+    .introduction>div:first-child h1 {
+        margin: .5em 0;
+    }
+    .poster {
+        height: 360px;
+    }
+    .introduction {
+        height: 260px;
+    }
+    .feedback, .feedback h3 {
+        text-align: center;
+    }
+    form#feedback input[type='submit'] {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    main.container .testimonial {
+        width: 100%;
+    }
+    footer {
+        font-size: .6em;
+    }
+    footer .container {
+        max-width: 480px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        font-size: 1em;
+        height: auto;
+        text-align: center;
+    }
+    header .logo {
+        float: none;
+    }
+    header .phone {
+        margin-left: 0;
+    }
+    header .right {
+        color: black;
+    }
+    header .contact {
+        line-height: 1;
+    }
+    header .menu {
+        font-size: 2em;
+    }
+    header .menu:after {
+        display: none;
+    }
+    .poster {
+        display: none;
+    }
+    .circles {
+        display: none;
+    }
+    .introduction {
+        font-size: 1.2em;
+        height: auto;
+        text-align: center;
+    }
+    .introduction>div:first-child {
+        width: 100%;
+    }
+    .introduction>div:first-child h1 {
+        text-align: center;
+    }
+    .container {
+        max-width: 480px;
+        margin: 0px auto;
+    }
+    .left, .right {
+        width: 100%;
+        float: none;
+    }
+    footer {
+        font-size: 1em;
+        height: auto;
+    }
+    footer .container {
+        display: block;
+    }
+    footer .footer_column {
+        display: block;
+        width: 100%;
+        margin: .5em 0;
+    }
+    footer .footer_column:first-child {
+        text-align: center;
+        ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 0px auto;
+    }
+    h2, h3 {
+        font-size: 1.8em;
+    }
+}

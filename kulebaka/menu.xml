@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<menu default="bread">
+    <meta>
+        <currentCategory>cake</currentCategory>
+    </meta>
+    <position category="bread">
+        <name>Фермерский</name>
+        <image>farmbread.png</image>
+        <price>50 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная 1 с, мука ржаная, вода, сахар, маргарин, дрожжи х.п, соль</description>
+    </position>
+    <position category="bread">
+        <name>Ржаной</name>
+        <image>rzhanoibread.png</image>
+        <price>45 руб.</price>
+        <weight>250 гр.</weight>
+        <description>Состав: мука пшеничная 1 с, мука ржаная, дрожжи, соль, сахар</description>
+    </position>
+    <position category="bread">
+        <name>Боярский</name>
+        <image>boyarskiybread.png</image>
+        <price>70 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, мука ржаная, поджареная солодовая мука, соль, дрожжи, клюква вяленая</description>
+    </position>
+    <position category="bread">
+        <name>Гречишный</name>
+        <image>grechishniybread.png</image>
+        <price>45 руб.</price>
+        <weight>250 гр.</weight>
+        <description>Состав: мука пшеничная 1 с, соль, сахар,маргарин, крупа гречневая, дрожжи</description>
+    </position>
+    <position category="bread">
+        <name>Кукурузный</name>
+        <image>corn.png</image>
+        <price>85 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, мука кукурузная, семя подсолнечника, масло растительное,         картофельные хлопья, семя льна, кунжута, пряности, дрожжи х.п, соль</description>
+    </position>
+    <position category="bread">
+        <name>С отрубями</name>
+        <image>sotrubyamibread.png</image>
+        <price>55 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная 1 с, мука ржаная, отруби пшеничные, маргарин, соль, дрожжи</description>
+    </position>
+    <position category="bread">
+        <name>Литовский</name>
+        <image>litovsliybread.png</image>
+        <price>65 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, мука ржаная, поджареная солодовая мука, соль, дрожжи</description>
+    </position>
+    <position category="bread">
+        <name>Старославянский</name>
+        <image>staroslavanskiybread.png</image>
+        <price>55 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная 1 с, мука ржаная, соль, дрожжи, тмин молотый</description>
+    </position>
+    <position category="bread">
+        <name>Средиземный Бездрожжевой</name>
+        <image>sredizemniy.png</image>
+        <price>100 руб.</price>
+        <weight>600 гр.</weight>
+        <description>Состав: мука пшеничная в.с, натуральная пшеничная закваска, вода, соль, солод ржаной, бета-каротин</description>
+    </position>
+    <position category="bread">
+        <name>Живое зернышко</name>
+        <image>live_corn.png</image>
+        <price>90 руб.</price>
+        <weight>400 гр.</weight>
+        <description>Состав: мука пшеничная в.с, мука ржаная обдирная, вода, рожь, ячменный солод,         семя подсолнечника, семя льна,
+        семя кунжута, сахарный сироп, картофельный хлопья, дрожжи, соль, клейковина, масло растительное</description>
+    </position>
+    <position category="bread">
+        <name>Льняной</name>
+        <image>lnyanoy.png</image>
+        <price>60 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, мука ржаная обдирная, мука льняная, закваска ржаная,         семя подсолнечника, семя льна,
+        сахар, маргарин, дрожжи, соль, масло растительное</description>
+    </position>
+    <position category="bread">
+        <name>Багет Фитнес</name>
+        <image>baguette_fitness.png</image>
+        <price>70 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, поджареная солодовая пшеничная мука, мука ржаная,         крупа ячменная, масло растительное, хлопья овсяные, семя подсолнечника, льна,
+        кунжута, морковь сушеная, дрожжи, соль</description>
+    </position>
+    <position category="bread">
+        <name>Багет Классический Парижский</name>
+        <image>baguette_paris.png</image>
+        <price>65 руб.</price>
+        <weight>300 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, соль, дрожжи, масло растительное</description>
+    </position>
+    <position category="bread">
+        <name>Булочка Ржаная</name>
+        <image>bul_rzhanaya.png</image>
+        <price>20 руб.</price>
+        <weight>60 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, мука ржаная, закваска пшеничная, соль, дрожжи, солод ржаной,
+        масло растительное, соль, сахар, тмин, кориандр, фенхель, анис</description>
+        <notice>Минимальный заказ 12 шт.</notice>
+    </position>
+    <position category="bread">
+        <name>Булочка Пшеничная</name>
+        <image>bul_pshen.png</image>
+        <price>20 руб.</price>
+        <weight>60 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, маргарин, сахар, дрожжи, соль, молоко сухое цельное</description>
+        <notice>Минимальный заказ 12 шт.</notice>
+    </position>
+    <position category="bread">
+        <name>Булочка Кукурузная</name>
+        <image>bul_corn.png</image>
+        <price>20 руб.</price>
+        <weight>60 гр.</weight>
+        <description>Состав: мука пшеничная в.с, вода, кукуруза, мука кукурузная,растительное масло, дрожжи, соль, отруби пшеничные</description>
+        <notice>Минимальный заказ 12 шт.</notice>
+    </position>
+    <position category="cake">
+        <name>Пирог<![CDATA[<br />]]>с капустой</name>
+        <image>cabbage.png</image>
+        <price>380 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, капуста, морковь, перец черный </description>
+    </position>
+    <position category="cake">
+        <name>Пирог с картофелем<![CDATA[<br />]]>и грибами</name>
+        <image>potato_mushroom.png</image>
+        <price>480 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, картофель, лук репчатый, шампиньоны, масло сливочное</description>
+    </position>
+    <position category="cake">
+        <name>Пирог с картофелем<![CDATA[<br />]]>и мясом</name>
+        <image>potato_meat.png</image>
+        <price>600 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, картофель,мясо говядины, свинины, лук репчатый, масло сливочное, перец черный</description>
+    </position>
+    <position category="cake">
+        <name>Пирог с ветчиной и<![CDATA[<br />]]>сыром</name>
+        <image>ham_cheese.png</image>
+        <price>650 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, ветчина, сыр голландский, перец болгарский, майонез, лук репчатый, зелень</description>
+    </position>
+    <position category="cake">
+        <name>Пирог с курицей и<![CDATA[<br />]]>грибами</name>
+        <image>chicken_mushroom.png</image>
+        <price>650 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, мясо курицы, шампиньоны, майонез, укроп, петрушка, перец черный</description>
+    </position>
+    <position category="cake">
+        <name>Пирог<![CDATA[<br />]]>с мясом</name>
+        <image>meat.jpg</image>
+        <price>760 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, мясо говядины, свинины, лук репчатый, перец черный</description>
+    </position>
+    <position category="cake">
+        <name>Пирог с красной<![CDATA[<br />]]>рыбой</name>
+        <image>red_fish.png</image>
+        <price>960 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, филе лососевых рыб, лук репчатый, майонез,сыр, укроп, перец черный молотый</description>
+    </position>
+    <position category="cake">
+        <name>Пирог постный с капустой и грибами</name>
+        <image>cabbage_mushroom.png</image>
+        <price>460 руб.</price>
+        <weight>1200 гр.</weight>
+        <description>Состав: мука в.с, дрожжи х.п, сахар, вода, соль,
+         масло растительное, капуста, лук репчатый, шампиньоны</description>
+    </position>
+    <position category="cake">
+        <name>Пирог грибной с жульеном</name>
+        <image>julien.png</image>
+        <price>650 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо,соль, дрожжи х.п, масло растительное, молоко, лук репчатый, шампиньоны, майонез, перец черный молотый</description>
+    </position>
+    <position category="cake">
+        <name>Пирог Уральский (с красной рыбой, капустой)</name>
+        <image>uralskiy.png</image>
+        <price>650 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, дрожжи х.п, сахар, маргарин, яйцо, соль, вода, филе лососевых рыб,
+        капуста, морковь, майонез, лук репчатый, укроп, петрушка, перец черный молотый</description>
+    </position>
+    <position category="drink">
+        <name>Сок Добрый Апельсин</name>
+        <image>orange_juice.png</image>
+        <price>100 руб.</price>
+        <weight>1 л.</weight>
+    </position>
+    <position category="drink">
+        <name>Сок Добрый Вишня</name>
+        <image>cherry_juice.png</image>
+        <price>100 руб.</price>
+        <weight>1 л.</weight>
+    </position>
+    <position category="drink">
+        <name>Сок Добрый МультиФрукт</name>
+        <image>multifruit_juice.png</image>
+        <price>100 руб.</price>
+        <weight>1 л.</weight>
+    </position>
+    <position category="drink">
+        <name>Кока-Кола</name>
+        <image>cola.png</image>
+        <price>80 руб.</price>
+        <weight>1 л.</weight>
+    </position>
+    <position category="drink">
+        <name>Фанта</name>
+        <image>fanta.png</image>
+        <price>80 руб.</price>
+        <weight>1 л.</weight>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с черникой</name>
+        <image>blackberry.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, черничный джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с брусникой</name>
+        <image>brus.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, брусничный джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с вишней</name>
+        <image>cherry.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, вишневый джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с яблоком</name>
+        <image>apple.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, яблочный джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с творогом</name>
+        <image>tvorog.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, молоко, творог</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с брусникой и творогом</name>
+        <image>brus_tvorog.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, молоко, творог, брусничный джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с черникой и творогом</name>
+        <image>blackberry_tvorog.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, молоко, творог, черничный джем</description>
+    </position>
+    <position category="sweetcake">
+        <name>Пирог с яблоком и творогом</name>
+        <image>apple_tvorog.png</image>
+        <price>540 руб.</price>
+        <weight>1300 гр.</weight>
+        <description>Состав: мука в.с, сахар, маргарин, яйцо, соль, дрожжи х.п, масло растительное, молоко, творог, яблочный джем</description>
+    </position>
+</menu>
